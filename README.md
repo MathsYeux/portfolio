@@ -2,7 +2,7 @@
 
 ### A beautiful minimal and accessible portfolio template for Developers ✨.
 
-Pour voir le site en live cliquez ici [here &rarr;](https://github.com/MathsYeux.io/portefolio/)
+Pour voir le site en live cliquez ici [here &rarr;](https://mathsyeux.github.io/portfolio/)
 
 
 ## Want to learn How to create a template like this ?
