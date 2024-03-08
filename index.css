@@ -537,7 +537,6 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
 }
 

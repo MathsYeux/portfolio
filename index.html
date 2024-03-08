@@ -24,7 +24,7 @@
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Mathieu Dessaulx | Etudiant en développement à Nancy
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
@@ -41,10 +41,9 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
           <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+            <a href="#about" class="nav__link">À propos</a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">Contact</a>
@@ -56,11 +55,11 @@
       <div class="header__text">
         <h1 class="heading-primary">
           <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
+          <span>Mathieu Dessaulx</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+        <p>Étudiant en développement à Nancy</p>
+        <a href="#contact" class="btn btn--pink">Me contacter</a>
       </div>
     </div>
   </header>
@@ -71,110 +70,88 @@
 
     <section class="work" id="work">
       <div class="row">
-        <h2>My Work</h2>
+        <h2>Mes projets</h2>
         <div class="work__boxes">
 
           <!-- Each div with the work__box class is a project. -->
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
+              <h3>Projet d'optimisation</h3>
               <p>
-                A free Open Source Portfolio for anyone to use for free.
+                Ce projet a pour but de compresser des images en réduisant le nombre de couleurs tout en restant fidèle à l'image. Le tout de manière rapide et efficace.
               </p>
+              <p>Le programme va :</p>
               <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
+                <li>parcourir l'image</li>
+                <li>lister les couleurs les plus utilisées</li>
+                <li>les trier en histogramme</li>
+                <li>faire de la clusterisation avec l'histogramme comme départ</li>
               </ul>
 
               <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/miesch3u/SAE_opti" target="_blank" class="link__text">
+                  Visiter le dépôt github <span>&rarr;</span>
                 </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                <a href="https://github.com/MathsYeux" title="View Source Code" target="_blank">
                   <img src="./images/github.svg" class="work__code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+              <img src="./images/screen_projet_opti.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Raytracing</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Nous n'avons codé que la partie multithreadée du raytracing. Le but était de comprendre le fonctionnement de la programmation multithreadée et de l'appliquer à un projet concret.
+                Le projet permet ainsi de répartir la charge de calcul sur plusieurs coeurs du processeur. Voici un exemple de l'image où on a caché les résultats de la moitié des threads (le découpage se fait en fonction du nombre de threads alloués).
               </p>
               <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>voici comment l'architecture des noeuds de calcul fonctionne.</li>
+                <div class="work__image-box">
+                  <img src="./images/raytracing_archi.png" class="work__image" alt="Project 1" />
+                </div>
               </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/MathsYeux/raytracing" class="link__text">
+                  Visiter le dépôt github <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/MathsYeux">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="./images/raytracing_rendu.png" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Crazy charly day</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Le sujet de ce Crazy Charly Day était de créer un site web permettant à des candidats pour des ateliers de cuisine de s'incrire et de faire des voeux. La partie de ce projet à laquelle j'ai été assigné était la répartition des affectations de manière à plaire au plus de candidats possibles.
+                Le projet n'a malheureusement pas été terminé, mais le programme java fonctionne selon une version simplifiée de l'algorithme de recuit simulé (et retourne un tableau JSON).
               </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
 
               <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
+                <a href="https://github.com/NicoRiri/CrazyCharlyDay2024/" class="link__text">
+                  Visiter le dépôt github <span>&rarr;</span>
                 </a>
-                <a href="#">
+                <a href="https://github.com/MathsYeux">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
             </div>
             <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+              <img src="./images/CCD.png" class="work__image" alt="Project 3" />
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
         </div>
       </div>
     </section>
@@ -183,23 +160,18 @@
 
     <section class="about" id="about">
       <div class="row">
-        <h2>About Me</h2>
+        <h2>À propos de moi</h2>
         <div class="about__content">
           <div class="about__text">
             <!-- Replace the below paragraph with info about yourself -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
+              Je m'appelle Mathieu et je suis étudiant en 3ème année de BUT Informatique, spécialisé en développement backend.<br>
+              Je suis passionné par la programmation et je suis toujours à la recherche de nouveaux projets à réaliser.<br>
+              J'aime le tir à l'arc, j'ai été pompier quelques années et je suis passionné de jeux vidéos.<br>
+              Je suis actuellement à la recherche d'un stage de fin d'études pour une durée de 14 à 16 semaines, à partir du 15 avril 2024.<br>
             </p>
             <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+            <a href="CV%20Mathieu%20Dessaulx.pdf" download="MonCV.pdf" class="btn">Mon CV</a>
           </div>
         </div>
       </div>
@@ -210,18 +182,19 @@
 
   <section class="contact" id="contact">
     <div class="row">
-      <h2>Get in Touch</h2>
+      <h2>Me contacter</h2>
       <div class="contact__info">
         <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
+          N'hésitez pas à me contacter pour discuter de vos besoins ou simplement pour dire "Bonjour 👋". Je répondrai à vos messages dans les plus brefs délais.<br>
+
+          Le moyen le plus rapide de me contacter est par e-mail.<br><br>
+
+          À bientôt,
+
+          Mathieu Dessaulx
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:mathieu.dessaulx@gmail.com" class="btn">mathieu.dessaulx@gmail.com</a>
       </div>
     </div>
   </section>
@@ -230,30 +203,6 @@
 
   <footer role="contentinfo" class="footer">
     <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
       <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
       <p>
         &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
